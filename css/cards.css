@@ -1,0 +1,87 @@
+body#poker {
+  padding-top: 75px;
+}
+
+div#hand {
+  text-align: center;
+}
+
+img.card {
+  display: inline-block;
+  width: 350px;
+  height: auto;
+}
+
+div#hud {
+  margin: 35px auto;
+  max-width: 480px;
+  padding-left: 35px;
+}
+
+div#position-wrapper {
+  background-color: #222;
+  padding: 25px;
+  margin-right: 35px;
+  margin-bottom: 25px;
+  border: 5px solid #000;
+  border-radius: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #666;
+}
+
+div#position-wrapper div#position {
+  display: inline-block;
+  font-size: 250%;
+  color: #FFF;
+}
+
+div#score-wrapper {
+  padding-right: 35px;
+  text-align: right;
+  color: #FFF;
+}
+
+div#score-wrapper div#score {
+  display: inline-block;
+}
+
+div#score-wrapper div#total {
+  display: inline-block;
+}
+
+div#fold {
+  display: inline-block;
+  width: 30%;
+  background-color: #900;
+  padding: 15px 35px;
+  border: 3px solid #000;
+  border-radius: 10px;
+  text-align: center;
+  color: #FFF;
+  cursor: pointer;
+}
+
+div#call {
+  display: inline-block;
+  width: 30%;
+  background-color: #009;
+  padding: 15px 35px;
+  border: 3px solid #000;
+  border-radius: 10px;
+  text-align: center;
+  color: #FFF;
+  cursor: pointer;
+}
+
+div#raise {
+  display: inline-block;
+  width: 30%;
+  background-color: #090;
+  padding: 15px 35px;
+  border: 3px solid #000;
+  border-radius: 10px;
+  text-align: center;
+  color: #FFF;
+  cursor: pointer;
+}
